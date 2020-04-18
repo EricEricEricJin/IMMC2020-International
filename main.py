@@ -311,3 +311,4 @@ if __name__ == "__main__":
     f = open("dist", "w")
     f.write("people num: " + str(PEOPLE_NUMBER) + "\n")
     f.write("dispute: " + str(dispute_times) + "\n")
+    f.close()
